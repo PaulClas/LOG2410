@@ -9,6 +9,9 @@
 #define _HEADER_AbsAudioFile_
 
 #include <string>
+#include <cstring>
+#include <cstdlib>
+
 
 #include "ChunkIterator.h"
 

@@ -3,6 +3,8 @@
 
 #include "Test_TP4.h"
 
+using namespace std;
+
 int main() {
 	try {
 		Test_TP4 TestCorrection;

@@ -1,13 +1,2 @@
-﻿  AbsTransform.cpp
-  AudioFile.cpp
-  Chunk.cpp
-  ChunkIterator.cpp
-  CompositeTransform.cpp
-  MemAudioFile.cpp
-c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\memaudiofile.cpp(25): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
-  RepeatTransform.cpp
-  InvertTransform.cpp
-  Main.cpp
-  Test_TP4.cpp
-  Génération de code en cours...
+﻿  CompositeTransform.cpp
   PolyVersion.vcxproj -> C:\Users\User\Documents\LOG2410\TP4\TP4-H19-CodeDepart\CodeDepart\x64\Debug\PolyVersion.exe

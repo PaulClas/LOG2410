@@ -24,7 +24,11 @@ void InvertTransform::transform(const Chunk_iterator& c, AbsAudioFile& outFile) 
 	 */
 	 //Chunk_iterator first = c.get(0);
 	 //Chunk_iterator last = c.get(c.size() - 1);
-	int i = 0;
-	reverse(c.get(i), c.get(c.size() - 1));
-	outFile.addChunk(c);
+	/*int i = 0;
+	std::reverse(c.get(i), c.get(c.size() - 1));
+	outFile.addChunk(c);*/
+
+	Chunk_iterator w(c);
+	std::reverse(w->get(), w->get() + w->size());
+	outFile.addChunk(w);
 }

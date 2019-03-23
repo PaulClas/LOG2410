@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TP4-H19-CodeDepart\CodeDepart\TransformContainer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TP4-H19-CodeDepart\CodeDepart\AbsTransform.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TP4-H19-CodeDepart\CodeDepart\AudioFile.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TP4-H19-CodeDepart\CodeDepart\Chunk.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TP4-H19-CodeDepart\CodeDepart\ChunkIterator.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TP4-H19-CodeDepart\CodeDepart\CompositeTransform.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TP4-H19-CodeDepart\CodeDepart\InvertTransform.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TP4-H19-CodeDepart\CodeDepart\Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TP4-H19-CodeDepart\CodeDepart\MemAudioFile.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TP4-H19-CodeDepart\CodeDepart\RepeatTransform.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TP4-H19-CodeDepart\CodeDepart\Test_TP4.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\CompositeTransform.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\InvertTransform.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\MemAudioFile.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\RepeatTransform.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\ResultatTest.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\Test_TP4.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\TransformContainer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\AbsAudioFile.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\AbsTransform.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\AudioFile.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\Chunk.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TP4-H19-CodeDepart\CodeDepart\ChunkIterator.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\TP4-H19-CodeDepart\CodeDepart\audiof_composit_ref.bin">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="..\..\TP4-H19-CodeDepart\CodeDepart\audiof_inv_ref.bin">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="..\..\TP4-H19-CodeDepart\CodeDepart\audiof_proxy_ref.bin">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="..\..\TP4-H19-CodeDepart\CodeDepart\audiof_ref1.bin">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+    <None Include="..\..\TP4-H19-CodeDepart\CodeDepart\audiof_rt_ref.bin">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{E0784D86-FB49-4CE5-BCCE-15E140B32E6C}</ProjectGuid>
+    <RootNamespace>tp41log2410</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\AbsTransform.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\AudioFile.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\Chunk.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\ChunkIterator.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\CompositeTransform.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\InvertTransform.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\Main.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\MemAudioFile.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\RepeatTransform.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\Test_TP4.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\TransformContainer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\AbsAudioFile.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\AbsTransform.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\AudioFile.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\Chunk.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\ChunkIterator.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\CompositeTransform.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\InvertTransform.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\MemAudioFile.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\RepeatTransform.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\ResultatTest.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\Test_TP4.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\TransformContainer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\audiof1.bin" />
+    <None Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\audiof_composit.bin" />
+    <None Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\audiof_composit_ref.bin" />
+    <None Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\audiof_inv.bin" />
+    <None Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\audiof_inv_ref.bin" />
+    <None Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\audiof_proxy.bin" />
+    <None Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\audiof_proxy_ref.bin" />
+    <None Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\audiof_ref1.bin" />
+    <None Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\audiof_rt.bin" />
+    <None Include="..\..\..\..\..\Downloads\LOG2410-master\LOG2410-master\TP4\CodeDepart\audiof_rt_ref.bin" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

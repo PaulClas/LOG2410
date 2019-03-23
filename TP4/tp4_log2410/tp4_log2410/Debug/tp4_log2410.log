@@ -1,0 +1,19 @@
+﻿  TransformContainer.cpp
+c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\transformcontainer.cpp(11): error C2039: 'TransformContainer' : n'est pas membre de 'std::vector<TransformPtr,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=TransformPtr
+          ]
+  c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\transformcontainer.h(17): note: voir la déclaration de 'std::vector<TransformPtr,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=TransformPtr
+          ]
+c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\transformcontainer.cpp(11): error C2059: erreur de syntaxe : ')'
+c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\transformcontainer.cpp(11): error C2143: erreur de syntaxe : absence de ';' avant '{'
+c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\transformcontainer.cpp(11): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\transformcontainer.cpp(17): error C2523: 'std::vector<TransformPtr,std::allocator<_Ty>>::~TransformContainer' : balise destructeur non correcte
+          with
+          [
+              _Ty=TransformPtr
+          ]

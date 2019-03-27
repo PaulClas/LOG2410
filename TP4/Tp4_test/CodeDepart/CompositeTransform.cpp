@@ -3,6 +3,7 @@
 //  Implementation of the Class CompositeTransform
 //  Created on:      13-mar.-2017
 //  Original author: francois
+//	Modifié: Paul Clas 1846912 26 mars 2019
 ///////////////////////////////////////////////////////////
 
 #include "CompositeTransform.h"

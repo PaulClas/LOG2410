@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Transforms">
+      <UniqueIdentifier>{0b288614-5e5c-44e4-91d8-4bb46fd934d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Transforms">
+      <UniqueIdentifier>{f4b90289-a102-4a14-8f7a-dbf7864658fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\AudioFiles">
+      <UniqueIdentifier>{8aab33c6-35db-4ef2-a926-8f2017f19d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\AudioFiles">
+      <UniqueIdentifier>{22580d20-e72c-4fc7-ab9e-277fa447d4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\FileVisitors">
+      <UniqueIdentifier>{ced7d49c-1d37-4462-a5e4-b7e76fe0422e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\FileVisitors">
+      <UniqueIdentifier>{fd34b3e9-c877-456e-a7b0-e922c72aff67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\FileCommands">
+      <UniqueIdentifier>{f8951faa-943f-4f0d-ad33-109ec5df0dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\FileCommands">
+      <UniqueIdentifier>{159675cd-9b66-4125-b268-8a7b36784971}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_TP5.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeTransform.cpp">
+      <Filter>Fichiers sources\Transforms</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertTransform.cpp">
+      <Filter>Fichiers sources\Transforms</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatTransform.cpp">
+      <Filter>Fichiers sources\Transforms</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioFile.cpp">
+      <Filter>Fichiers sources\AudioFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkIterator.cpp">
+      <Filter>Fichiers sources\AudioFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="MemAudioFile.cpp">
+      <Filter>Fichiers sources\AudioFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="FileChecksumCalculator.cpp">
+      <Filter>Fichiers sources\FileVisitors</Filter>
+    </ClCompile>
+    <ClCompile Include="ChecksumCommand.cpp">
+      <Filter>Fichiers sources\FileCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformCommand.cpp">
+      <Filter>Fichiers sources\FileCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStringFindReplace.cpp">
+      <Filter>Fichiers sources\FileVisitors</Filter>
+    </ClCompile>
+    <ClCompile Include="StringFindReplaceCommand.cpp">
+      <Filter>Fichiers sources\FileCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandExecutor.cpp">
+      <Filter>Fichiers sources\FileCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsTransform.cpp">
+      <Filter>Fichiers sources\Transforms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ResultatTest.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_TP5.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsTransform.h">
+      <Filter>Fichiers d%27en-tête\Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeTransform.h">
+      <Filter>Fichiers d%27en-tête\Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="InvertTransform.h">
+      <Filter>Fichiers d%27en-tête\Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="RepeatTransform.h">
+      <Filter>Fichiers d%27en-tête\Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsAudioFile.h">
+      <Filter>Fichiers d%27en-tête\AudioFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFile.h">
+      <Filter>Fichiers d%27en-tête\AudioFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Fichiers d%27en-tête\AudioFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkIterator.h">
+      <Filter>Fichiers d%27en-tête\AudioFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="MemAudioFile.h">
+      <Filter>Fichiers d%27en-tête\AudioFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsFileVisitor.h">
+      <Filter>Fichiers d%27en-tête\FileVisitors</Filter>
+    </ClInclude>
+    <ClInclude Include="FileChecksumCalculator.h">
+      <Filter>Fichiers d%27en-tête\FileVisitors</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandExecutor.h">
+      <Filter>Fichiers d%27en-tête\FileCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsCommand.h">
+      <Filter>Fichiers d%27en-tête\FileCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="ChecksumCommand.h">
+      <Filter>Fichiers d%27en-tête\FileCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformCommand.h">
+      <Filter>Fichiers d%27en-tête\FileCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStringFindReplace.h">
+      <Filter>Fichiers d%27en-tête\FileVisitors</Filter>
+    </ClInclude>
+    <ClInclude Include="StringFindReplaceCommand.h">
+      <Filter>Fichiers d%27en-tête\FileCommands</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

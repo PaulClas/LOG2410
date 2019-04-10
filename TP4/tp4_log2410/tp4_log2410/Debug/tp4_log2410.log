@@ -1,4 +1,12 @@
-﻿  TransformContainer.cpp
+﻿  AbsTransform.cpp
+  CompositeTransform.cpp
+  InvertTransform.cpp
+  RepeatTransform.cpp
+c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\repeattransform.cpp(16): warning C4018: '<' : incompatibilité signed/unsigned
+  Test_TP4.cpp
+c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\test_tp4.cpp(48): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\test_tp4.cpp(58): warning C4018: '<' : incompatibilité signed/unsigned
+  TransformContainer.cpp
 c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\transformcontainer.cpp(11): error C2039: 'TransformContainer' : n'est pas membre de 'std::vector<TransformPtr,std::allocator<_Ty>>'
           with
           [
@@ -17,3 +25,4 @@ c:\users\user\documents\log2410\tp4\tp4-h19-codedepart\codedepart\transformconta
           [
               _Ty=TransformPtr
           ]
+  Génération de code en cours...

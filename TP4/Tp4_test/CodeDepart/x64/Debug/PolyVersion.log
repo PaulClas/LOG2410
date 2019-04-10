@@ -1,2 +1,5 @@
-﻿  InvertTransform.cpp
+﻿  CompositeTransform.cpp
+  InvertTransform.cpp
+  RepeatTransform.cpp
+  Génération de code en cours...
   PolyVersion.vcxproj -> C:\Users\User\Documents\LOG2410\TP4\Tp4_test\CodeDepart\x64\Debug\PolyVersion.exe

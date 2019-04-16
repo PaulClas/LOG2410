@@ -1,5 +1,2 @@
-﻿  ChecksumCommand.cpp
-  StringFindReplaceCommand.cpp
-  TransformCommand.cpp
-  Génération de code en cours...
+﻿  FileChecksumCalculator.cpp
   PolyVersion.vcxproj -> C:\Users\User\Documents\LOG2410\TP5\CodeDepartTP5-H19\x64\Debug\PolyVersion.exe

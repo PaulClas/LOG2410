@@ -17,14 +17,14 @@ void CommandExecutor::executeAllCommands(AbsAudioFile& f)
 {
 	// Executer toutes les commandes dans la liste de commandes
 	// A COMPLETER...
-	for (auto x : m_commandList) {
-		x->execute(f);
-	}
+	for (auto it = m_commandList.begin(); it != m_commandList.end(); it++)
+		(it->get())->execute(f);
 }
 
 void CommandExecutor::clearAllCommands(void)
 {
 	// Vider la liste des commandes
 	// A COMPLETER...
-	m_commandList.erase(m_commandList.begin(), m_commandList.end());
+	//m_commandList.erase(m_commandList.begin(), m_commandList.end());
+	m_commandList.clear();
 }

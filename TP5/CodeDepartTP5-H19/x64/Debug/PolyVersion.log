@@ -1,2 +1,5 @@
-﻿  FileStringFindReplace.cpp
+﻿  ChecksumCommand.cpp
+  StringFindReplaceCommand.cpp
+  TransformCommand.cpp
+  Génération de code en cours...
   PolyVersion.vcxproj -> C:\Users\User\Documents\LOG2410\TP5\CodeDepartTP5-H19\x64\Debug\PolyVersion.exe
